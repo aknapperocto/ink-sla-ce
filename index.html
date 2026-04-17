@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy Policy for a Chrome extension that helps authorized users monitor internal support queues in a browser side panel."
+    >
+    <style>
+      :root {
+        --bg: #f5f3ff;
+        --panel: #ffffff;
+        --panel-alt: #f8fafc;
+        --text: #1f2937;
+        --muted: #5b6475;
+        --line: #ddd6fe;
+        --accent: #6d28d9;
+        --accent-soft: #ede9fe;
+        --shadow: 0 18px 48px rgba(91, 33, 182, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(167, 139, 250, 0.22), transparent 30%),
+          linear-gradient(180deg, #faf7ff 0%, var(--bg) 100%);
+        color: var(--text);
+      }
+
+      .shell {
+        width: min(920px, calc(100% - 32px));
+        margin: 40px auto 56px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+        color: #fff;
+        border-radius: 28px;
+        padding: 32px;
+        box-shadow: var(--shadow);
+      }
+
+      .eyebrow {
+        display: inline-block;
+        margin: 0 0 12px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.16);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(34px, 5vw, 52px);
+        line-height: 1.04;
+      }
+
+      .hero p {
+        margin: 0;
+        max-width: 700px;
+        font-size: 18px;
+        line-height: 1.6;
+        color: rgba(255, 255, 255, 0.92);
+      }
+
+      .content {
+        margin-top: 22px;
+        background: var(--panel);
+        border: 1px solid rgba(109, 40, 217, 0.12);
+        border-radius: 28px;
+        padding: 28px;
+        box-shadow: var(--shadow);
+      }
+
+      .meta {
+        margin: 0 0 22px;
+        padding: 14px 16px;
+        border-radius: 18px;
+        background: var(--accent-soft);
+        color: #4c1d95;
+        font-weight: 600;
+      }
+
+      section {
+        padding: 20px 0;
+        border-top: 1px solid #efe9ff;
+      }
+
+      section:first-of-type {
+        border-top: 0;
+        padding-top: 0;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 24px;
+        line-height: 1.2;
+      }
+
+      p {
+        margin: 0 0 12px;
+        line-height: 1.75;
+        color: var(--muted);
+      }
+
+      ul {
+        margin: 12px 0 0;
+        padding-left: 22px;
+        color: var(--muted);
+      }
+
+      li {
+        margin: 10px 0;
+        line-height: 1.7;
+      }
+
+      .footer {
+        margin-top: 18px;
+        text-align: center;
+        color: #6b7280;
+        font-size: 14px;
+      }
+
+      .footer a {
+        color: var(--accent);
+      }
+
+      @media (max-width: 640px) {
+        .shell {
+          width: min(100% - 20px, 920px);
+          margin: 20px auto 28px;
+        }
+
+        .hero,
+        .content {
+          border-radius: 22px;
+          padding: 22px;
+        }
+
+        .hero p {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <p class="eyebrow">Chrome Extension</p>
+        <h1>Privacy Policy</h1>
+        <p>
+          This Privacy Policy explains how this Chrome extension collects, uses,
+          stores, and shares information.
+        </p>
+      </header>
+
+      <article class="content">
+        <p class="meta">Last updated: 17 April 2026</p>
+
+        <section>
+          <h2>Overview</h2>
+          <p>
+            This extension is designed for authorized users who work in a private
+            support workspace. Its purpose is to help those users monitor saved
+            teams, group them into custom collections, refresh queue snapshots,
+            and review queue health in a browser side panel.
+          </p>
+        </section>
+
+        <section>
+          <h2>Information This Extension Collects</h2>
+          <p>
+            Depending on how the extension is used, it may collect and store the
+            following categories of information:
+          </p>
+          <ul>
+            <li>
+              Workspace content and metadata needed to provide the extension's
+              features, such as saved team identifiers, team names, grouped
+              collections, queue item titles, status values, timestamps,
+              age-band calculations, and related workspace summary data.
+            </li>
+            <li>
+              A work email address, if the user chooses to enter one for the
+              optional feedback and usage-tracking features.
+            </li>
+            <li>
+              Feedback submitted by the user through the extension, including the
+              selected category and the message content the user enters.
+            </li>
+            <li>
+              Limited extension-usage events, such as opening the panel, saving
+              or updating teams, refreshing data, opening a queue, copying
+              summaries, and similar feature-use actions.
+            </li>
+            <li>
+              Local diagnostic log entries generated by extension actions and
+              error handling.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How Information Is Used</h2>
+          <p>
+            The extension uses collected information only to provide and improve
+            its stated functionality. This includes:
+          </p>
+          <ul>
+            <li>displaying saved teams and grouped collections in the side panel</li>
+            <li>refreshing and summarizing queue snapshot data</li>
+            <li>highlighting items that are over target or likely to breach target</li>
+            <li>opening the related queue page when requested by the user</li>
+            <li>storing local settings and state between browser sessions</li>
+            <li>receiving bug reports, feature requests, or general feedback submitted by the user</li>
+            <li>measuring feature usage to improve the extension's workflow and reliability</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Where Information Is Stored</h2>
+          <p>
+            Most extension state is stored locally in the browser using Chrome
+            extension storage. This can include saved teams, grouped collections,
+            queue snapshots, configuration values, feedback queue entries,
+            usage-event queue entries, and log data.
+          </p>
+          <p>
+            If the user enables the feedback and usage-tracking features by
+            providing a work email address, certain information may also be sent
+            over HTTPS to a configured Google Apps Script endpoint for internal
+            product support, feedback review, and operational analysis.
+          </p>
+        </section>
+
+        <section>
+          <h2>Information Sharing</h2>
+          <p>We do not sell user data.</p>
+          <p>
+            We do not use or transfer user data for advertising, profiling,
+            creditworthiness, lending decisions, or other unrelated purposes.
+          </p>
+          <p>
+            Information may be shared only in the following limited circumstances:
+          </p>
+          <ul>
+            <li>
+              with the configured Google Apps Script endpoint when the user
+              enables optional feedback or usage tracking
+            </li>
+            <li>
+              when necessary to operate, maintain, or improve the extension's
+              single purpose
+            </li>
+            <li>
+              when required to comply with applicable law, regulation, legal
+              process, or enforceable governmental request
+            </li>
+            <li>
+              when necessary to investigate, prevent, or address security, fraud,
+              or abuse issues
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Remote Code</h2>
+          <p>
+            The extension does not load or execute remotely hosted JavaScript or
+            WebAssembly code. All executable extension code is packaged with the
+            extension itself. The extension does make HTTPS network requests to
+            retrieve workspace data and to send optional feedback and usage
+            records.
+          </p>
+        </section>
+
+        <section>
+          <h2>User Choices</h2>
+          <ul>
+            <li>
+              A work email address is only stored if the user chooses to provide
+              it for feedback and usage tracking.
+            </li>
+            <li>Feedback is only sent when the user actively submits it.</li>
+            <li>
+              If a user stops using the extension or clears extension storage,
+              locally stored data in Chrome storage can be removed.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Data Retention</h2>
+          <p>
+            Information stored locally remains in Chrome extension storage until
+            it is updated, removed by the user, or cleared when the extension is
+            removed.
+          </p>
+          <p>
+            Information sent to the configured feedback or tracking endpoint may
+            be retained according to the operator's internal retention practices
+            for product support and operational analysis.
+          </p>
+        </section>
+
+        <section>
+          <h2>Security</h2>
+          <p>
+            The extension is intended to use secure HTTPS connections for
+            supported network requests. Reasonable measures are used to reduce
+            unauthorized access, disclosure, or misuse of stored and transmitted
+            data.
+          </p>
+        </section>
+
+        <section>
+          <h2>Children's Privacy</h2>
+          <p>This extension is not directed to children.</p>
+        </section>
+
+        <section>
+          <h2>Changes To This Policy</h2>
+          <p>
+            This Privacy Policy may be updated from time to time. The published
+            version will reflect the current policy and its effective date.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>
+            For privacy questions about this extension, contact the publisher
+            using the contact method listed in the extension listing or on the
+            extension website.
+          </p>
+        </section>
+
+        <section>
+          <h2>Chrome Web Store Compliance Statement</h2>
+          <p>
+            This extension's use of user data is limited to the practices
+            described in this Privacy Policy and complies with the Chrome Web
+            Store User Data Policy, including the Limited Use requirements.
+          </p>
+        </section>
+      </article>
+
+      <p class="footer">
+        Prefer a direct file URL? This same policy is also available at
+        <a href="./privacy-policy.html">privacy-policy.html</a>.
+      </p>
+    </main>
+  </body>
+</html>
